@@ -1,0 +1,80 @@
+/*
+Creator: Zayn Evans
+Date Created: 11/15/19
+Date Last Modified: 11/20/19
+*/
+header, footer {
+	background: #8B0305;
+	color: white;
+	text-align: center;
+}
+footer {
+	margin-top: -16px;
+	border-top: 0px;
+	padding: 0px 0px 5px 0px;
+}
+.jumbotron {
+	background: #8B0305;
+	margin-bottom: 0;
+
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,.5);
+
+}
+nav {
+	background-color: rgba(167,14,19,.75);
+	
+	/*border-top: thin black solid;*/
+	/*border-bottom: thin black solid;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,.35);
+}
+.btn {
+	background-color: #8B0305;
+	/*border: thin inset gray;*/
+	box-shadow: 0px 3px 3px 0px rgba(0,0,0,.55);
+	
+}
+/*
+nav a {
+	background-color: #8B0305;
+	color: white;
+	padding: 8px;
+	border: thin solid black;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin: 20px 20px 20px 20px;
+	width: 150px;
+	float: left;
+	border-radius: 11px;
+}
+*/
+.clear-float {
+	clear: both;
+}
+nav a:visited {
+	color: lemonchiffon;
+}
+nav a:hover {
+	background: #8B0305;
+	opacity: .75;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:active {
+	font-size: 1.2em;
+}
+.slide {
+	background-color: rgba(167,14,19,.25);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,.25);
+}
+.page-footer {
+	box-shadow: 0 50vh 0 50vh #8B0305;
+}
+.text-center {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+}
